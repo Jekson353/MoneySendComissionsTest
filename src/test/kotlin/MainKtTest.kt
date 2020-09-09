@@ -38,13 +38,6 @@ class MainKtTest {
     }
 
     @Test
-    fun main(b: Boolean) {
-        val result = main(true)
-        assertEquals(result, true)
-
-    }
-
-    @Test
     fun isLimitPay_TypeElse() {
         val typeCard = TypePay.MASTERCARD_MAESTRO
         val amount = 100_000_00
